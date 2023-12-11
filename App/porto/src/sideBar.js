@@ -1,15 +1,28 @@
 
+import { MdOutlineVolunteerActivism } from "react-icons/md";
+import { PiCertificateBold } from "react-icons/pi";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+
+
+
 
 function SideBar() {
   return (
     <div className="sideBar">
-        <img src={require("./home.png")}  style={{width:"35px",height:"35px",backgroundColor:"transparent",paddingLeft:"10px",paddingTop:"2em"}} alt="logo" />
-      <div className="sideBar__header">
-        <h4>Side</h4>
-      </div>
-      <div className="sideBar__body">
-        <p>SideBar</p>
-      </div>
+       
+        <PiCertificateBold   style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}} />
+        <CiLinkedin style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}}  />
+        <FaGithub style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}} />
+        <MdOutlineVolunteerActivism  style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}}/>
+
+        <SiGmail  style={{color:"white",paddingTop:"1em",width:"25px",height:"35px",paddingLeft:"0.4em"}} />
+
+
+
+
+   
     </div>
   );
 }

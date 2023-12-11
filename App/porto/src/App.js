@@ -7,7 +7,7 @@ function App() {
   return (
     <div >
       <Nav/>
-      <div style={{display:"flex"}}>
+      <div style={{display:"flex",gap:"0px"}}>
       <SideBar/>
       <Main/>
       </div>

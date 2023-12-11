@@ -33,7 +33,7 @@ nav{
   justify-content: space-between;
   gap: 3em;
   flex-shrink: 1;
-  background: url("./gradient.jpeg");
+  background: url("./nv 4.png");
   background-size: 100%;
  
 
@@ -47,11 +47,11 @@ nav{
   display: flex;
   flex-direction: column;
   width: 50px;
-  height: 100vh;
+  height: 93vh;
   background-size: 100%;
   flex: wrap;
   gap: 20px;
-  background: url("./gradient2.jpeg");
+  background-color: black;
  
   
 
@@ -83,15 +83,22 @@ h4 {
 .photo{
   display: flex;
   flex-direction: column;
-  padding-top:20% ;
+  justify-self: top;
+  padding-top:10% ;
  text-align: left;
-  gap: 0;
+ margin: 0px;
+ 
+ 
+
   padding-left: 10%;
-  background: url("./grad.jpg");
-  background-size: 115%;
+  background: url("./pf.png");
+  background-size: 100%;
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
+  justify-content: start; /* Updated to align text to the start of the container */
+  align-items: start; 
+  gap: 5px;
 }
 
 @keyframes App-logo-spin {
