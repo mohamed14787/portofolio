@@ -12,12 +12,12 @@ function SideBar() {
   return (
     <div className="sideBar">
        
-        <PiCertificateBold   style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}} />
-        <CiLinkedin style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}}  />
-        <FaGithub style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}} />
-        <MdOutlineVolunteerActivism  style={{color:"white",paddingTop:"1em",width:"35px",height:"35px"}}/>
+        <PiCertificateBold   style={{color:"white",paddingTop:"4em",width:"35px",height:"35px"}} />
+        <CiLinkedin style={{color:"white",paddingTop:"2em",width:"35px",height:"35px"}}  />
+        <FaGithub style={{color:"white",paddingTop:"2em",width:"35px",height:"35px"}} />
+        <MdOutlineVolunteerActivism  style={{color:"white",paddingTop:"2em",width:"35px",height:"35px"}}/>
 
-        <SiGmail  style={{color:"white",paddingTop:"1em",width:"25px",height:"35px",paddingLeft:"0.4em"}} />
+        <SiGmail  style={{color:"white",paddingTop:"2em",width:"25px",height:"35px",paddingLeft:"0.4em"}} />
 
 
 
