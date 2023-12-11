@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3em;
+  flex-shrink: 1;
+  background: url("./gradient.jpeg");
+  background-size: 100%;
+ 
+
+  background-color: black;
+}
+.left__section{
+  text-align: left;
+  margin: 30px;
+}
+.sideBar{
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  height: 100vh;
+  background-size: 100%;
+  flex: wrap;
+  gap: 20px;
+  background: url("./gradient2.jpeg");
+ 
+  
+
+}
+
+
+.right__section{
+  display: flex;
+ 
+  justify-content: space-around;
+  gap: 20px;
+}
+h4 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.cv{
+  color: black;
+  background-color:white;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.photo{
+  display: flex;
+  flex-direction: column;
+  padding-top:20% ;
+ text-align: left;
+  gap: 0;
+  padding-left: 10%;
+  background: url("./grad.jpg");
+  background-size: 115%;
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
