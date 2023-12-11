@@ -27,23 +27,22 @@
 .App-link {
   color: #61dafb;
 }
-nav{
+nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 3em;
   flex-shrink: 1;
-  background: url("./nv 4.png");
-  background-size: 100%;
- 
+  /* background: url("./nav5.png"); */
+  background-size: 102%;
 
   background-color: black;
 }
-.left__section{
+.left__section {
   text-align: left;
   margin: 30px;
 }
-.sideBar{
+.sideBar {
   display: flex;
   flex-direction: column;
   width: 50px;
@@ -52,53 +51,53 @@ nav{
   flex: wrap;
   gap: 20px;
   background-color: black;
- 
-  
-
+}
+.lolo {
+  display: flex;
+  flex: warp;
+  gap: 0px;
 }
 
-
-.right__section{
+.right__section {
   display: flex;
- 
+
   justify-content: space-around;
   gap: 20px;
 }
 h4 {
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-.cv{
-  color: white;
-  background-color:transparent;
+.cv {
+  color: black;
+  background-color: white;
   font-size: 20px;
   padding: 15px;
-  
-  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
-.photo{
+.photo {
   display: flex;
   flex-direction: column;
   justify-self: top;
-  padding-top:10% ;
- text-align: left;
- margin: 0px;
- 
- 
+  padding-top: 6%;
+  text-align: left;
+  margin: 0px;
 
   padding-left: 10%;
-  background: url("./pfinal.png");
-  background-size: 100%;
+  /* background: url("./pd.png"); */
+  background-color: black;
+
   width: 100%;
   height: auto;
   background-repeat: no-repeat;
   justify-content: start; /* Updated to align text to the start of the container */
-  align-items: start; 
-  gap: 5px;
+  align-items: start;
 }
 
 @keyframes App-logo-spin {
